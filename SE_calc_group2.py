@@ -62,3 +62,7 @@ print("nth= "+str(nth))
 # Energy balance
 W1b=Q1-Q2-Q34-Q5+mhw*1000-mh3*1000 # watts
 print("W1= "+str(W1)+" and the balance value is: "+str(W1b))
+
+# Engine efficiency 
+ne=(Q1-Q2)/Q1
+print("Engine Efficiency is: "+str(ne))
